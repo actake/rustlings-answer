@@ -9,9 +9,12 @@
 // when you change one of the lines below! Try adding a `println!` line, or try changing
 // what it outputs in your terminal. Try removing a semicolon and see what happens!
 
-// I AM NOT DONE
-
 fn main() {
+    let name1 = "kk";
+    let name2 = "ll";
+
+    println!("name: {:^10}", name1);
+    println!("name: {:^10}", name2);
     println!("Hello and");
     println!(r#"       welcome to...                      "#);
     println!(r#"                 _   _ _                  "#);
